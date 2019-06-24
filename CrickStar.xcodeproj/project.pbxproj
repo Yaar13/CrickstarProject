@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848258D922B5AB33008242BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258D822B5AB33008242BF /* main.swift */; };
+		848258E022B5AD45008242BF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258DF22B5AD45008242BF /* Player.swift */; };
+		848258E222B5AFC5008242BF /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E122B5AFC5008242BF /* IDisplay.swift */; };
+		848258E422B5B060008242BF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E322B5B060008242BF /* Person.swift */; };
+		848258E622B5B31F008242BF /* Umpire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E522B5B31F008242BF /* Umpire.swift */; };
+		848258E822B5B52C008242BF /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E722B5B52C008242BF /* Coach.swift */; };
+		848258EA22B5B75C008242BF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E922B5B75C008242BF /* Team.swift */; };
+		848258EC22B5C51F008242BF /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258EB22B5C51F008242BF /* Tournament.swift */; };
+		848258EE22B5CDFA008242BF /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258ED22B5CDFA008242BF /* WorldCup.swift */; };
+		848258F022B5D78A008242BF /* T20WC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258EF22B5D78A008242BF /* T20WC.swift */; };
+		848258F222B5D8A3008242BF /* ChampionTrophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258F122B5D8A3008242BF /* ChampionTrophy.swift */; };
+		848258F522B5DFD8008242BF /* Persons.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 848258F322B5DA16008242BF /* Persons.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		848258D322B5AB33008242BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		848258F422B5DFCF008242BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				848258F522B5DFD8008242BF /* Persons.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E2BA33522C07EAA00A56F9E /* CrickStar-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "CrickStar-master"; sourceTree = "<group>"; };
+		848258D522B5AB33008242BF /* CrickStar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrickStar; sourceTree = BUILT_PRODUCTS_DIR; };
+		848258D822B5AB33008242BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		848258DF22B5AD45008242BF /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		848258E122B5AFC5008242BF /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		848258E322B5B060008242BF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		848258E522B5B31F008242BF /* Umpire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umpire.swift; sourceTree = "<group>"; };
+		848258E722B5B52C008242BF /* Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
+		848258E922B5B75C008242BF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		848258EB22B5C51F008242BF /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		848258ED22B5CDFA008242BF /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		848258EF22B5D78A008242BF /* T20WC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T20WC.swift; sourceTree = "<group>"; };
+		848258F122B5D8A3008242BF /* ChampionTrophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionTrophy.swift; sourceTree = "<group>"; };
+		848258F322B5DA16008242BF /* Persons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Persons.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848258D222B5AB33008242BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848258CC22B5AB33008242BF = {
+			isa = PBXGroup;
+			children = (
+				5E2BA33522C07EAA00A56F9E /* CrickStar-master */,
+				848258D722B5AB33008242BF /* CrickStar */,
+				848258D622B5AB33008242BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848258D622B5AB33008242BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848258D522B5AB33008242BF /* CrickStar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848258D722B5AB33008242BF /* CrickStar */ = {
+			isa = PBXGroup;
+			children = (
+				848258D822B5AB33008242BF /* main.swift */,
+				848258DF22B5AD45008242BF /* Player.swift */,
+				848258E122B5AFC5008242BF /* IDisplay.swift */,
+				848258E322B5B060008242BF /* Person.swift */,
+				848258E522B5B31F008242BF /* Umpire.swift */,
+				848258E722B5B52C008242BF /* Coach.swift */,
+				848258E922B5B75C008242BF /* Team.swift */,
+				848258EB22B5C51F008242BF /* Tournament.swift */,
+				848258ED22B5CDFA008242BF /* WorldCup.swift */,
+				848258EF22B5D78A008242BF /* T20WC.swift */,
+				848258F122B5D8A3008242BF /* ChampionTrophy.swift */,
+				848258F322B5DA16008242BF /* Persons.json */,
+			);
+			path = CrickStar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848258D422B5AB33008242BF /* CrickStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848258DC22B5AB33008242BF /* Build configuration list for PBXNativeTarget "CrickStar" */;
+			buildPhases = (
+				848258D122B5AB33008242BF /* Sources */,
+				848258D222B5AB33008242BF /* Frameworks */,
+				848258D322B5AB33008242BF /* CopyFiles */,
+				848258F422B5DFCF008242BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrickStar;
+			productName = CrickStar;
+			productReference = 848258D522B5AB33008242BF /* CrickStar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848258CD22B5AB33008242BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = CrickStar;
+				TargetAttributes = {
+					848258D422B5AB33008242BF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 848258D022B5AB33008242BF /* Build configuration list for PBXProject "CrickStar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 848258CC22B5AB33008242BF;
+			productRefGroup = 848258D622B5AB33008242BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848258D422B5AB33008242BF /* CrickStar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848258D122B5AB33008242BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848258EC22B5C51F008242BF /* Tournament.swift in Sources */,
+				848258EE22B5CDFA008242BF /* WorldCup.swift in Sources */,
+				848258E022B5AD45008242BF /* Player.swift in Sources */,
+				848258E222B5AFC5008242BF /* IDisplay.swift in Sources */,
+				848258EA22B5B75C008242BF /* Team.swift in Sources */,
+				848258E422B5B060008242BF /* Person.swift in Sources */,
+				848258D922B5AB33008242BF /* main.swift in Sources */,
+				848258F222B5D8A3008242BF /* ChampionTrophy.swift in Sources */,
+				848258E822B5B52C008242BF /* Coach.swift in Sources */,
+				848258F022B5D78A008242BF /* T20WC.swift in Sources */,
+				848258E622B5B31F008242BF /* Umpire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		848258DA22B5AB33008242BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848258DB22B5AB33008242BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		848258DD22B5AB33008242BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		848258DE22B5AB33008242BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848258D022B5AB33008242BF /* Build configuration list for PBXProject "CrickStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848258DA22B5AB33008242BF /* Debug */,
+				848258DB22B5AB33008242BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848258DC22B5AB33008242BF /* Build configuration list for PBXNativeTarget "CrickStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848258DD22B5AB33008242BF /* Debug */,
+				848258DE22B5AB33008242BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848258CD22B5AB33008242BF /* Project object */;
+}
